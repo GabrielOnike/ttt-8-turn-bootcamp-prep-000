@@ -9,7 +9,7 @@ def display_board(board)
 end
 
 def turn(board, index)
-    if valid_move(board,index)
+    if !valid_move(board,index)
       return board
     end
     puts "\nPlease enter 1-9:"
