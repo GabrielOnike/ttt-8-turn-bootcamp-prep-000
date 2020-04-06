@@ -37,6 +37,6 @@ def position_taken?(board,index)
   end
 end
 
-def move(board, input_to_index,char="X")
-   board[input_to_index] = char
+def move(board, index,char="X")
+   board[index] = char
 end
