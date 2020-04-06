@@ -6,7 +6,4 @@ board=[" "," "," "," "," "," "," "," "," "]
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
 turn(board)
-input=gets.strip
-index = input_to_index(index)
-move(board, index, char="X")
-display_board(board)
+
