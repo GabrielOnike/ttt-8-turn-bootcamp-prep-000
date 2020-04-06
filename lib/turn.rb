@@ -8,7 +8,7 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def turn(board,index)
+def turn(board,index, char="X")
     if valid_move(board,index)
       return board
     end
