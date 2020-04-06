@@ -9,7 +9,12 @@ def display_board(board)
 end
 
 def turn(board)
+    return board if !valid_move(board,index)
     puts "\nPlease enter 1-9:"
+    input=gets.strip
+    index = input_to_index(index)
+    move(board, index, char="X")
+    display(board)
 end
 
 def input_to_index(user_input)
