@@ -16,7 +16,7 @@ def turn(board, index, input)
     input = gets.strip
     index = input_to_index(index)
     move(board, index, char="X")
-    
+
 end
 
 def input_to_index(user_input)
