@@ -13,7 +13,7 @@ def turn(board, index)
       return board
     end
     puts "\nPlease enter 1-9:"
-    input=gets.strip
+    input = gets.strip
     index = input_to_index(index)
     move(board, index, char="X")
     display(board)
